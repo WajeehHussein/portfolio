@@ -7,13 +7,12 @@ import './Skills.css';
 const Skills = () => {
     const responsive = {
         superLargeDesktop: {
-            // the naming can be any, depends on you.
             breakpoint: { max: 4000, min: 3000 },
             items: 5
         },
         desktop: {
             breakpoint: { max: 3000, min: 1024 },
-            items: 3
+            items: 5
         },
         tablet: {
             breakpoint: { max: 1024, min: 464 },
@@ -32,23 +31,38 @@ const Skills = () => {
                     <div className="col-12">
                         <div className="skill-bx wow zoomIn">
                             <h2>Skills</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
-                            <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+                            <Carousel responsive={responsive} items='5' infinite={true} className="owl-carousel owl-theme skill-slider">
                                 <div className="item">
                                     <img src='https://drive.google.com/uc?export=view&id=1nK9l0MG696rbUXjavocy-QVmYPSPZLEt' alt="Image" />
-                                    <h5>Web Development</h5>
+                                    <h5>HTML/CSS</h5>
                                 </div>
                                 <div className="item">
                                     <img src='https://drive.google.com/uc?export=view&id=1nK9l0MG696rbUXjavocy-QVmYPSPZLEt' alt="Image" />
-                                    <h5>Brand Identity</h5>
+                                    <h5>JavaScript</h5>
                                 </div>
                                 <div className="item">
                                     <img src='https://drive.google.com/uc?export=view&id=1nK9l0MG696rbUXjavocy-QVmYPSPZLEt' alt="Image" />
-                                    <h5>Logo Design</h5>
+                                    <h5>REACT JS</h5>
                                 </div>
                                 <div className="item">
                                     <img src='https://drive.google.com/uc?export=view&id=1nK9l0MG696rbUXjavocy-QVmYPSPZLEt' alt="Image" />
-                                    <h5>Web Development</h5>
+                                    <h5>Redux</h5>
+                                </div>
+                                <div className="item">
+                                    <img src='https://drive.google.com/uc?export=view&id=1nK9l0MG696rbUXjavocy-QVmYPSPZLEt' alt="Image" />
+                                    <h5>Node JS</h5>
+                                </div>
+                                <div className="item">
+                                    <img src='https://drive.google.com/uc?export=view&id=1nK9l0MG696rbUXjavocy-QVmYPSPZLEt' alt="Image" />
+                                    <h5>GIT & GITHUB</h5>
+                                </div>
+                                <div className="item">
+                                    <img src='https://drive.google.com/uc?export=view&id=1nK9l0MG696rbUXjavocy-QVmYPSPZLEt' alt="Image" />
+                                    <h5>Deploy on platforms</h5>
+                                </div>
+                                <div className="item">
+                                    <img src='https://drive.google.com/uc?export=view&id=1nK9l0MG696rbUXjavocy-QVmYPSPZLEt' alt="Image" />
+                                    <h5>SASS</h5>
                                 </div>
                             </Carousel>
                         </div>

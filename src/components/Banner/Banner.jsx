@@ -4,6 +4,7 @@ import { ArrowRightCircle } from 'react-bootstrap-icons';
 import './Banner.css'
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import { Link } from "react-router-dom";
 
 const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
@@ -11,7 +12,7 @@ const Banner = () => {
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const [index, setIndex] = useState(1);
-    const toRotate = ["Web Developer", "Web Designer", "UI/UX Designer"];
+    const toRotate = ["Web Developer", "Software Developer"];
     const period = 2000;
 
     useEffect(() => {
@@ -55,10 +56,13 @@ const Banner = () => {
                         <TrackVisibility>
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                                    <span className="tagline">Welcome to my Portfolio</span>
-                                    <h1>{`Hi! I'm Wajeeh`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                                    <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                                    <h1>{`Hi! I'm Wajeeh`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Software Developer" ]'><span className="wrap">{text}</span></span></h1>
+                                    <p>Software developer with a positive attitude, strong work ethic, and a keen desire for learning
+and development. Currently, I’m seeking to work in the programming industry, in the web
+development department, with a company that contains my talent.</p>
+                                    
+                                    <button>Let’s Connect <ArrowRightCircle size={25} /></button>
+                                    
                                 </div>}
                         </TrackVisibility>
                     </Col>

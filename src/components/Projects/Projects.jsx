@@ -9,35 +9,41 @@ const Projects = () => {
 
     const projects = [
         {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: 'https://drive.google.com/uc?export=view&id=19Tym5l-uMsWNFkCVipSt04bYZ3AGXuJT',
+            title: "Mr delievery",
+            description: "Site for delievery food",
+            imgUrl: 'https://images.pexels.com/photos/9461218/pexels-photo-9461218.jpeg?auto=compress&cs=tinysrgb&w=1600',
+            liveUrl: 'https://wista02.github.io/mr-delivery-fe/'
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: 'https://drive.google.com/uc?export=view&id=19Tym5l-uMsWNFkCVipSt04bYZ3AGXuJT',
+            title: "Todo App",
+            // description: "Design & Development",
+            imgUrl: 'https://images.pexels.com/photos/669986/pexels-photo-669986.jpeg?auto=compress&cs=tinysrgb&w=1600',
+            liveUrl: 'https://wajeehhussein.github.io/todo-app/'
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: 'https://drive.google.com/uc?export=view&id=19Tym5l-uMsWNFkCVipSt04bYZ3AGXuJT',
+            title: "Youtube clone",
+            // description: "Design & Development",
+            imgUrl: 'https://img.freepik.com/free-photo/pile-3d-play-button-logos_1379-880.jpg?w=996&t=st=1667344290~exp=1667344890~hmac=26de0448aeb8b0574058d8e1f5c11ff69f8629cd4f701743ecb245fe694eca35',
+            liveUrl: 'https://wajeeh-youtube.netlify.app/'
+
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: 'https://drive.google.com/uc?export=view&id=19Tym5l-uMsWNFkCVipSt04bYZ3AGXuJT',
+            title: "Wajeeh World",
+            // description: "Design & Development",
+            imgUrl: 'https://images.pexels.com/photos/927629/pexels-photo-927629.jpeg?auto=compress&cs=tinysrgb&w=1600',
+            liveUrl: 'https://wajeehhussein.github.io/social-media/'
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: 'https://drive.google.com/uc?export=view&id=19Tym5l-uMsWNFkCVipSt04bYZ3AGXuJT',
+            title: "games site",
+            // description: "Design & Development",
+            imgUrl: 'https://images.pexels.com/photos/1637436/pexels-photo-1637436.jpeg?auto=compress&cs=tinysrgb&w=1600',
+            liveUrl: 'https://wajeehhussein.github.io/games-site/'
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: 'https://drive.google.com/uc?export=view&id=19Tym5l-uMsWNFkCVipSt04bYZ3AGXuJT',
-        },
+            title: "SOON",
+            // description: "Design & Development",
+            imgUrl: 'https://images.pexels.com/photos/3843282/pexels-photo-3843282.jpeg?auto=compress&cs=tinysrgb&w=1600',
+        }
     ];
 
     return (
@@ -49,7 +55,7 @@ const Projects = () => {
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                                     <h2>Projects</h2>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                    <p>In this Section I Like Present Some my projects</p>
                                     <Tab.Container id="projects-tabs" defaultActiveKey="first">
                                         <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                             <Nav.Item>
@@ -58,9 +64,9 @@ const Projects = () => {
                                             <Nav.Item>
                                                 <Nav.Link eventKey="second">Tab 2</Nav.Link>
                                             </Nav.Item>
-                                            <Nav.Item>
+                                            {/* <Nav.Item>
                                                 <Nav.Link eventKey="third">Tab 3</Nav.Link>
-                                            </Nav.Item>
+                                            </Nav.Item> */}
                                         </Nav>
                                         <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                                             <Tab.Pane eventKey="first">
@@ -77,12 +83,15 @@ const Projects = () => {
                                                     }
                                                 </Row>
                                             </Tab.Pane>
-                                            <Tab.Pane eventKey="section">
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                                            <Tab.Pane eventKey="second">
+                                                <div className="soon">
+                                                <div>Coming Soon...</div>
+                                                <div class="lds-heart"><div></div></div>
+                                                </div>
                                             </Tab.Pane>
-                                            <Tab.Pane eventKey="third">
+                                            {/* <Tab.Pane eventKey="third">
                                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
-                                            </Tab.Pane>
+                                            </Tab.Pane> */}
                                         </Tab.Content>
                                     </Tab.Container>
                                 </div>}
@@ -90,7 +99,6 @@ const Projects = () => {
                     </Col>
                 </Row>
             </Container>
-            {/* <img className="background-image-right" src={colorSharp2}></img> */}
         </section>
     )
 }

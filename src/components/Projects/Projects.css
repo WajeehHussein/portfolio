@@ -21,7 +21,7 @@
 }
 
 .project .nav.nav-pills {
-    width: 72%;
+    width: 50%;
     margin: 0 auto;
     border-radius: 50px;
     background-color: rgb(255 255 255 / 10%);
@@ -29,7 +29,7 @@
 }
 
 .project .nav.nav-pills .nav-item {
-    width: 33.33333%;
+    width: 50%;
 }
 
 .project .nav.nav-pills .nav-link {
@@ -65,30 +65,7 @@
     width: 100% !important;
 }
 
-/* .project .nav.nav-pills .nav-link.active {
-    border: 1px solid rgba(255, 255, 255, 1);
-  }
-  
-  .nav-link#projects-tabs-tab-first {
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    border-radius: 55px 0px 0px 55px;
-  } */
 
-.nav-link#projects-tabs-tab-second:hover {
-    cursor: pointer;
-    /* color: linear-gradient(90.21deg, #FF5D5D -5.91%, #700414 111.58%); */
-    /* font-size: 72px; */
-    font-size: 1.5rem;
-    background: -webkit-linear-gradient(90.21deg, #FF5D5D -5.91%, #700414 111.58%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
-}
-
-/* .nav-link#projects-tabs-tab-third {
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    border-radius: 0 55px 55px 0;
-  } */
 
 .proj-imgbx {
     position: relative;
@@ -99,7 +76,6 @@
 
 .proj-imgbx::before {
     content: "";
-    /* background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%); */
     background: linear-gradient(90.21deg, #FF5D5D -5.91%, #700414 111.58%);
 
     opacity: 0.85;
@@ -151,3 +127,78 @@
     right: 0;
     z-index: -4;
 }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.img {
+    height: 500px;
+    width: 420px;
+    object-fit: cover;
+}
+
+.soon  {
+    font-size: 5em;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* loading */
+.lds-heart {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    transform: rotate(45deg);
+    transform-origin: 40px 40px;
+  }
+  .lds-heart div {
+    top: 32px;
+    left: 32px;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background: #fff;
+    animation: lds-heart 2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  .lds-heart div:after,
+  .lds-heart div:before {
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 32px;
+    height: 32px;
+    background: #fff;
+  }
+  .lds-heart div:before {
+    left: -24px;
+    border-radius: 50% 0 0 50%;
+  }
+  .lds-heart div:after {
+    top: -24px;
+    border-radius: 50% 50% 0 0;
+  }
+  @keyframes lds-heart {
+    0% {
+      transform: scale(0.95);
+    }
+    5% {
+      transform: scale(1.1);
+    }
+    39% {
+      transform: scale(0.85);
+    }
+    45% {
+      transform: scale(1);
+    }
+    60% {
+      transform: scale(0.95);
+    }
+    100% {
+      transform: scale(0.9);
+    }
+  }
+  

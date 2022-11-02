@@ -18,7 +18,7 @@ const NavBar = () => {
 
         window.addEventListener("scroll", onScroll);
 
-        return () => window.removeEventListener("scroll", onScroll);
+        // return () => window.removeEventListener("scroll", onScroll);
     }, [])
 
     const onUpdateActiveLink = (value) => {
@@ -30,7 +30,7 @@ const NavBar = () => {
             <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
                 <Container>
                     <Navbar.Brand href="/" className="brand">
-                        PORTFOLIO
+                        WAJEEH
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav">
                         <span className="navbar-toggler-icon"></span>

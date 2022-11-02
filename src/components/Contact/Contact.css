@@ -83,3 +83,7 @@
 .contact form button:hover::before {
     width: 100%;
 }
+
+.linked {
+    font-size: 2rem;
+}
