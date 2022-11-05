@@ -15,7 +15,6 @@ const ProjectCard = ({ title, description, imgUrl, liveUrl }) => {
             </div>
         </Col>
 
-       
     )
 }
 

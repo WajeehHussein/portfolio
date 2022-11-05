@@ -1,8 +1,6 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import './Navbar.css'
-import { RiLinkedinFill } from 'react-icons/ri'
-import { GoMarkGithub } from 'react-icons/go'
 import { HashLink } from 'react-router-hash-link';
 import { BrowserRouter as Router } from "react-router-dom";
 

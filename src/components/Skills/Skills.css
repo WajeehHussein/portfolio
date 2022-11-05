@@ -36,3 +36,8 @@
     z-index: -4;
 }
 
+@media (max-width:464px) {
+    .background-image-left{
+        display: none;
+    }
+}

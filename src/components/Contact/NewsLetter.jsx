@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Col, Row, Alert } from "react-bootstrap";
+import { FaLinkedin ,FaGithub} from 'react-icons/fa';
 import '../Footer/Footer.css'
 
 export const Newsletter = ({ status, message, onValidated }) => {
@@ -26,20 +27,15 @@ export const Newsletter = ({ status, message, onValidated }) => {
         <Col lg={12}>
             <div className="newsletter-bx wow slideInUp">
                 <Row>
-                    <Col lg={12} md={6} xl={5}>
-                        <h3 className="linked">Send me on Linkedin</h3>
-                        {status === 'sending' && <Alert>Sending...</Alert>}
-                        {status === 'error' && <Alert variant="danger">{message}</Alert>}
-                        {status === 'success' && <Alert variant="success">{message}</Alert>}
+                        <div className="contact-box">
+                    <Col lg={12} md={6} >
+                        <div>Contact me on </div>
+                        <div className="icons">
+                        <a href="https://www.linkedin.com/in/wajeeh-essam/"><FaLinkedin /></a>
+                        <a href="https://github.com/WajeehHussein"><FaGithub /></a>
+                        </div>
                     </Col>
-                    <Col md={6} xl={7}>
-                        <form onSubmit={handleSubmit}>
-                            <div className="new-email-bx">
-                                <input value={email} type="text" onChange={(e) => setEmail(e.target.value)} placeholder="Your Message" />
-                                <button type="submit">Submit</button>
-                            </div>
-                        </form>
-                    </Col>
+                        </div>
                 </Row>
             </div>
         </Col>

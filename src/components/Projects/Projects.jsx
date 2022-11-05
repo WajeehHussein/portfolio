@@ -47,7 +47,7 @@ const Projects = () => {
     ];
 
     return (
-        <section className="project" id="project">
+        <section className="project" id="projects">
             <Container>
                 <Row>
                     <Col size={12}>
@@ -86,12 +86,9 @@ const Projects = () => {
                                             <Tab.Pane eventKey="second">
                                                 <div className="soon">
                                                 <div>Coming Soon...</div>
-                                                <div class="lds-heart"><div></div></div>
+                                                <div className="lds-heart"><div></div></div>
                                                 </div>
                                             </Tab.Pane>
-                                            {/* <Tab.Pane eventKey="third">
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
-                                            </Tab.Pane> */}
                                         </Tab.Content>
                                     </Tab.Container>
                                 </div>}
