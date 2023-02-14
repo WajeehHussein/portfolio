@@ -33,35 +33,35 @@ const Skills = () => {
                             <h2>Skills</h2>
                             <Carousel responsive={responsive} items='5' infinite={true}  className="owl-carousel owl-theme skill-slider">
                                 <div className="item">
-                                    <img src='https://drive.google.com/uc?export=view&id=1nK9l0MG696rbUXjavocy-QVmYPSPZLEt' alt="" />
+                                    <img src='https://www.pngall.com/wp-content/uploads/13/Red-Circle-PNG.png' alt="" />
                                     <h5>HTML/CSS</h5>
                                 </div>
                                 <div className="item">
-                                    <img src='https://drive.google.com/uc?export=view&id=1nK9l0MG696rbUXjavocy-QVmYPSPZLEt' alt="" />
+                                    <img src='https://www.pngall.com/wp-content/uploads/13/Red-Circle-PNG.png' alt="" />
                                     <h5>JavaScript</h5>
                                 </div>
                                 <div className="item">
-                                    <img src='https://drive.google.com/uc?export=view&id=1nK9l0MG696rbUXjavocy-QVmYPSPZLEt' alt="" />
+                                    <img src='https://www.pngall.com/wp-content/uploads/13/Red-Circle-PNG.png' alt="" />
                                     <h5>REACT JS</h5>
                                 </div>
                                 <div className="item">
-                                    <img src='https://drive.google.com/uc?export=view&id=1nK9l0MG696rbUXjavocy-QVmYPSPZLEt' alt="" />
+                                    <img src='https://www.pngall.com/wp-content/uploads/13/Red-Circle-PNG.png' alt="" />
                                     <h5>Redux</h5>
                                 </div>
                                 <div className="item">
-                                    <img src='https://drive.google.com/uc?export=view&id=1nK9l0MG696rbUXjavocy-QVmYPSPZLEt' alt="" />
+                                    <img src='https://www.pngall.com/wp-content/uploads/13/Red-Circle-PNG.png' alt="" />
                                     <h5>Node JS</h5>
                                 </div>
                                 <div className="item">
-                                    <img src='https://drive.google.com/uc?export=view&id=1nK9l0MG696rbUXjavocy-QVmYPSPZLEt' alt="" />
+                                    <img src='https://www.pngall.com/wp-content/uploads/13/Red-Circle-PNG.png' alt="" />
                                     <h5>GIT & GITHUB</h5>
                                 </div>
                                 <div className="item">
-                                    <img src='https://drive.google.com/uc?export=view&id=1nK9l0MG696rbUXjavocy-QVmYPSPZLEt' alt="" />
+                                    <img src='https://www.pngall.com/wp-content/uploads/13/Red-Circle-PNG.png' alt="" />
                                     <h5>Deploy on platforms</h5>
                                 </div>
                                 <div className="item">
-                                    <img src='https://drive.google.com/uc?export=view&id=1nK9l0MG696rbUXjavocy-QVmYPSPZLEt' alt="" />
+                                    <img src='https://www.pngall.com/wp-content/uploads/13/Red-Circle-PNG.png' alt="" />
                                     <h5>SASS</h5>
                                 </div>
                             </Carousel>
@@ -69,7 +69,7 @@ const Skills = () => {
                     </div>
                 </div>
             </div>
-            <img className="background-image-left" src='https://pbs.twimg.com/media/FeYowVCXkAA4HeU?format=png&name=small' alt="" />
+            <img className="background-image-left" src='https://drive.google.com/file/d/1NKSWgh-jTWH_Iwp-4k63yZgfHd1UcDEc/view?usp=share_link' alt="" />
         </section>
     )
 }

@@ -17,32 +17,33 @@ const Projects = () => {
         {
             title: "Todo App",
             // description: "Design & Development",
-            imgUrl: 'https://images.pexels.com/photos/669986/pexels-photo-669986.jpeg?auto=compress&cs=tinysrgb&w=1600',
+            imgUrl: 'https://pbs.twimg.com/media/Fo4ScIqWYAIYIiI?format=jpg&name=large',
             liveUrl: 'https://wajeehhussein.github.io/todo-app/'
         },
         {
             title: "Youtube clone",
             // description: "Design & Development",
-            imgUrl: 'https://img.freepik.com/free-photo/pile-3d-play-button-logos_1379-880.jpg?w=996&t=st=1667344290~exp=1667344890~hmac=26de0448aeb8b0574058d8e1f5c11ff69f8629cd4f701743ecb245fe694eca35',
+            imgUrl: 'https://img.freepik.com/free-photo/pile-3d-play-button-logos_1379-880.jpg?w=1800&t=st=1676326044~exp=1676326644~hmac=117e2d3360cac7bcb89ff0c4bb1563aae703704ca24088da9f20235e5833f5d0',
             liveUrl: 'https://wajeeh-youtube.netlify.app/'
 
         },
         {
-            title: "Wajeeh World",
+            title: "ecommerce app",
             // description: "Design & Development",
-            imgUrl: 'https://images.pexels.com/photos/927629/pexels-photo-927629.jpeg?auto=compress&cs=tinysrgb&w=1600',
+            imgUrl: 'https://images.pexels.com/photos/259200/pexels-photo-259200.jpeg?auto=compress&cs=tinysrgb&w=1600',
             liveUrl: 'https://wajeehhussein.github.io/social-media/'
         },
         {
             title: "games site",
             // description: "Design & Development",
-            imgUrl: 'https://images.pexels.com/photos/1637436/pexels-photo-1637436.jpeg?auto=compress&cs=tinysrgb&w=1600',
+            imgUrl: 'https://images.pexels.com/photos/9072256/pexels-photo-9072256.jpeg?auto=compress&cs=tinysrgb&w=1600',
             liveUrl: 'https://wajeehhussein.github.io/games-site/'
         },
         {
-            title: "SOON",
+            title: "Memory game",
             // description: "Design & Development",
-            imgUrl: 'https://images.pexels.com/photos/3843282/pexels-photo-3843282.jpeg?auto=compress&cs=tinysrgb&w=1600',
+            imgUrl: 'https://images.pexels.com/photos/278918/pexels-photo-278918.jpeg?auto=compress&cs=tinysrgb&w=1600',
+            liveUrl: 'https://wajeehhussein.github.io/memory-game/'
         }
     ];
 

@@ -64,13 +64,12 @@
     position: relative;
 }
 
-.contact form button:hover {
-    color: #fff;
-}
+
 
 .contact form button::before {
     content: "";
     background: #121212;
+    color: #fff;
     width: 0;
     height: 100%;
     position: absolute;
@@ -83,6 +82,8 @@
 .contact form button:hover::before {
     width: 100%;
 }
+
+
 
 .linked {
     font-size: 2rem;

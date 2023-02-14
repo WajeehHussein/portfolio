@@ -62,7 +62,7 @@ const Contact = () => {
                                             </Col>
                                             <Col size={12} className="px-1">
                                                 <textarea name="message" rows="6" value={formDetails.message} placeholder="Message" onChange={(e) => onFormUpdate('message', e.target.value)}></textarea>
-                                                <button type="submit" value="Send">Send</button>
+                                                <button type="submit" value="Send" className="email-buton">Send</button>
                                             </Col>
 
                                         </Row>
