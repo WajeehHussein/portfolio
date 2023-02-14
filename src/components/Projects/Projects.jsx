@@ -31,7 +31,7 @@ const Projects = () => {
             title: "ecommerce app",
             // description: "Design & Development",
             imgUrl: 'https://images.pexels.com/photos/259200/pexels-photo-259200.jpeg?auto=compress&cs=tinysrgb&w=1600',
-            liveUrl: 'https://wajeehhussein.github.io/social-media/'
+            liveUrl: 'https://github.com/WajeehHussein/ecommerce-redux'
         },
         {
             title: "games site",
